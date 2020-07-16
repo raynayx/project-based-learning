@@ -11,6 +11,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Clojure](#clojure)
 - [Elixir](#elixir)
 - [Erlang](#erlang)
+- [F#](#f)
 - [Go](#go)
 - [Haskell](#haskell)
 - [HTML/CSS](#html-and-css)
@@ -24,12 +25,14 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [R](#r)
 - [Ruby](#ruby)
 - [Rust](#rust)
+- [Scala](#scala)
 - [Swift](#swift)
 - [Additional resources](#additional-resources)
 
 ## C/C++:
 
 - [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 14 on is written in C)
+- [Memory Allocators 101 - Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory)
 - [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
 - [Write a FUSE Filesystem](https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/)
 - [Build Your Own Text Editor](http://viewsourcecode.org/snaptoken/kilo/)
@@ -65,6 +68,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 6: Conditionals](https://norasandler.com/2018/02/25/Write-a-Compiler-6.html)
   - [Part 7: Compound Statements](https://norasandler.com/2018/03/14/Write-a-Compiler-7.html)
   - [Part 8: Loops](https://norasandler.com/2018/04/10/Write-a-Compiler-8.html)
+  - [Part 9: Functions](https://norasandler.com/2018/06/27/Write-a-Compiler-9.html)
+  - [Part 10: Global Variables](https://norasandler.com/2019/02/18/Write-a-Compiler-10.html)
 - [Implementing a Language with LLVM](https://llvm.org/docs/tutorial/#kaleidoscope-implementing-a-language-with-llvm)
 - [Meta Crush Saga: a C++17 compile-time game](https://jguegant.github.io//jguegant.github.io/blogs/tech/meta-crush-saga.html)
 - [High-Performance Matrix Multiplication](https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0)
@@ -104,6 +109,15 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 4 - libuv](https://eli.thegreenplace.net/2017/concurrent-servers-part-4-libuv/)
   - [Part 5 - Redis case study](https://eli.thegreenplace.net/2017/concurrent-servers-part-5-redis-case-study/)
   - [Part 6 - Callbacks, Promises and async/await](https://eli.thegreenplace.net/2018/concurrent-servers-part-6-callbacks-promises-and-asyncawait/)
+ 
+- MQTT Broker from scratch
+  - [Part 1 - The protocol](https://codepr.github.io/posts/sol-mqtt-broker)
+  - [Part 2 - Networking](https://codepr.github.io/posts/sol-mqtt-broker-p2)
+  - [Part 3 - Server](https://codepr.github.io/posts/sol-mqtt-broker-p3)
+  - [Part 4 - Data structures](https://codepr.github.io/posts/sol-mqtt-broker-p4)
+  - [Part 5 - Topic abstraction](https://codepr.github.io/posts/sol-mqtt-broker-p5)
+  - [Part 6 - Handlers](https://codepr.github.io/posts/sol-mqtt-broker-p6)
+  - [Bonus - Multithreading](https://codepr.github.io/posts/sol-mqtt-broker-bonus)
 
 ### OpenGL:
 
@@ -142,11 +156,16 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 ## Elixir
 
 - [Building a Simple Chat App With Elixir and Phoenix](https://sheharyar.me/blog/simple-chat-phoenix-elixir/)
+- [How to write a super fast link shortener with Elixir, Phoenix, and Mnesia](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c)
 
 ## Erlang
 
 - [ChatBus : build your first multi-user chat room app with Erlang/OTP](https://medium.com/@kansi/chatbus-build-your-first-multi-user-chat-room-app-with-erlang-otp-b55f72064901)
 - [Making a Chat App with Erlang, Rebar, Cowboy and Bullet](http://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet.html)
+
+## F#:
+
+- [Write your own Excel in 100 lines of F#](http://tomasp.net/blog/2018/write-your-own-excel)
 
 ## Java:
 
@@ -169,6 +188,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 ### Mobile Application:
 
 - [Build a React Native Todo Application](https://egghead.io/courses/build-a-react-native-todo-application)
+- [Build a React Native Application with Redux Thunk](https://medium.com/@alialhaddad/how-to-use-redux-thunk-in-react-and-react-native-4743a1321bd0)
+
 
 ### Web Applications:
 
@@ -176,7 +197,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Create Serverless React.js Apps](http://serverless-stack.com/)
 - [Create a Trello Clone](http://codeloveandboards.com/blog/2016/01/04/trello-tribute-with-phoenix-and-react-pt-1/)
-- [Create a Character Voting App with React, Node, MongoDB and SocketIO](http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/)
+- [Create a Character Voting App with React, Node, MongoDB and SocketIO](https://www.zcfy.cc/original/create-a-character-voting-app-using-react-node-js-mongodb-and-socket-io)
 - [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
 - [Build a Full Stack Movie Voting App with Test-First Development using Mocha, React, Redux and Immutable](https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
 - [Build a Twitter Stream with React and Node](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js)
@@ -197,6 +218,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build an Appointment Scheduler](https://hackernoon.com/build-an-appointment-scheduler-using-react-twilio-and-cosmic-js-95377f6d1040)
 - [Build A Chat App with Sentiment Analysis](https://codeburst.io/build-a-chat-app-with-sentiment-analysis-using-next-js-c43ebf3ea643)
 - [Build A Full Stack Web Application Setup](https://hackernoon.com/full-stack-web-application-using-react-node-js-express-and-webpack-97dbd5b9d708)
+- [Create Todoist clone with React and Firebase](https://www.youtube.com/watch?v=hT3j87FMR6M)
 - Build A Random Quote Machine
   - [Part 1](https://www.youtube.com/watch?v=3QngsWA9IEE)
   - [Part 2](https://www.youtube.com/watch?v=XnoTmO06OYo)
@@ -213,8 +235,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 1](https://houssein.me/angular2-hacker-news)
   - [Part 2](https://houssein.me/progressive-angular-applications)
 - [Build a Google+ clone with Django and AngularJS (Angular 1.x)](https://thinkster.io/django-angularjs-tutorial)
-- Build A Beautiful Real World App with Angular 6 :
+- Build A Beautiful Real World App with Angular 8 :
   - [Part I](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e)
+  - [Part II](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-8-the-ultimate-guide-2019-part-ii-fe70852b2d6d)
+
 - [Build Responsive layout with BootStrap 4 and Angular 6](https://medium.com/@tomastrajan/how-to-build-responsive-layouts-with-bootstrap-4-and-angular-6-cfbb108d797b)
 - ToDo App with Angular 5
   - [Introduction to Angular](http://www.discoversdk.com/blog/intro-to-angular-and-the-evolution-of-the-web)
@@ -434,6 +458,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Transfer Learning for Image Classification using Keras](https://towardsdatascience.com/transfer-learning-for-image-classification-using-keras-c47ccf09c8c8)
 - [Code a Smile Classifier using CNNS in Python](https://github.com/kylemcdonald/SmileCNN)
 - [Natural Language Processing using scikit-learn](https://towardsdatascience.com/natural-language-processing-count-vectorization-with-scikit-learn-e7804269bb5e)
+- [Code a Taylor Swift Lyrics Generator](https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e)
 
 ### Miscellaneous:
 
@@ -441,7 +466,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build a Simple Blockchain in Python](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 - [Write a NoSQL Database in Python](https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/)
 - [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b)
-- [Build a Distributed Streaming System with Python and Kafka](https://scotch.io/tutorials/build-a-distributed-streaming-system-with-apache-kafka-and-python)
+- [Build a Distributed Streaming System with Python and Kafka](https://codequs.com/p/S14jQ5UyG/build-a-distributed-streaming-system-with-apache-kafka-and-python)
 - [Writing a basic x86-64 JIT compiler from scratch in stock Python](https://csl.name/post/python-jit/)
 - Making a low level (Linux) debugger
   - [Part 1](https://blog.asrpo.com/making_a_low_level_debugger)
@@ -471,7 +496,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 6: Transactions 2](https://jeiwan.cc/posts/building-blockchain-in-go-part-6/)
   - [Part 7: Network](https://jeiwan.cc/posts/building-blockchain-in-go-part-7/)
 - [Build Web Application with GoLang](https://legacy.gitbook.com/book/astaxie/build-web-application-with-golang/details)
-- [Building a container from scratch in Go - Liz Rice (Microscaling Systems)](https://www.youtube.com/watch?v=Utf-A4rODH8)
+- [Building a container from scratch in Go - Liz Rice (Microscaling Systems)](https://www.youtube.com/watch?v=8fi7uSYlOdc)
 
 ## PHP:
 
@@ -497,12 +522,19 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 ## Ruby:
 
 - [Build a Network Stack with Ruby](https://medium.com/geckoboard-under-the-hood/how-to-build-a-network-stack-in-ruby-f73aeb1b661b)
+- Build your own Redis
+  - [Part 0: Introduction](https://rohitpaulk.com/articles/redis-0)
+  - [Part 1: Barebones TCP Server](https://rohitpaulk.com/articles/redis-1)
+  - [Part 2: PING <-> PONG](https://rohitpaulk.com/articles/redis-2)
+  - [Part 3: Concurrent Clients](https://rohitpaulk.com/articles/redis-3)
+  - [Part 4: ECHO](https://rohitpaulk.com/articles/redis-4)
 
 ### Ruby on Rails:
 
 - [The Ruby on Rails Tutorial](https://www.railstutorial.org/book)
 - [Build Instagram From Scratch with Ruby on Rails](https://www.dropbox.com/s/9vq430e9s3q7pu8/Let%27s%20Build%20Instagram%20with%20Ruby%20on%20Rails%20-%20Free%20Edition.pdf?dl=0)
 - [Build a Social Network using Rails](https://medium.com/rails-ember-beyond/how-to-build-a-social-network-using-rails-eb31da569233)
+- [How To Build a Ruby on Rails Application](https://www.digitalocean.com/community/tutorials/how-to-build-a-ruby-on-rails-application)
 
 ## Haskell:
 
@@ -534,6 +566,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 1: Implementing WebSocket. Introduction.](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html)
   - [Part 2: Sending and Receiving Messages](https://nbaksalyar.github.io/2015/11/09/rust-in-detail-2.html)
 - [Writing a Rust Roguelike for the Desktop and the Web](https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/)
+
+## Scala:
+- [Simple actor-based blockchain](https://www.freecodecamp.org/news/how-to-build-a-simple-actor-based-blockchain-aac1e996c177/)
+- [No Magic: Regular Expressions](https://rcoh.svbtle.com/no-magic-regular-expressions)
 
 ## Swift:
 
